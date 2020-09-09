@@ -1,0 +1,4 @@
+rootProject.name = 'circuitbreaker.hystrix'
+
+include ':commons'
+project(':commons').projectDir = new File(settingsDir, '../commons')
