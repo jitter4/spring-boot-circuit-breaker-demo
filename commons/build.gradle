@@ -25,6 +25,8 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test:2.3.3.RELEASE') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
+	compile group: 'org.springframework', name: 'spring-web', version: '5.2.8.RELEASE'
+	compile group: 'org.springframework', name: 'spring-context', version: '5.2.8.RELEASE'
 }
 
 test {

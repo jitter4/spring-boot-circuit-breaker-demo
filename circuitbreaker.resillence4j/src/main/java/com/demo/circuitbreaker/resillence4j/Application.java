@@ -1,17 +1,15 @@
-package com.demo.circuitbreaker.hystrix;
+package com.demo.circuitbreaker.resillence4j;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan("com.demo")
-@EnableCircuitBreaker
-public class TestApplication {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TestApplication.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 
 }
